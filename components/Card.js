@@ -6,9 +6,7 @@ const newTeamMember = [];
 
 const Card = ({ data }) => {
   const [status, setStatus] = useState(false);
-  // const [index, setIndex] = useState(1);
-  // const teamData = require("../constants/team_info.json");
-
+  
   const addBtn = () => {
     if (data.available) {
       return (

@@ -37,8 +37,8 @@ const Filter = ({ onApplyFilters }) => {
             return item;
           }}
           style={{
-            borderRadius: '20px', // Adjust the value to control the roundness
-            overflow: 'hidden',   // This ensures the content stays within the rounded shape
+            borderRadius: '20px', 
+            overflow: 'hidden',   
           }}
         />
       </View>
